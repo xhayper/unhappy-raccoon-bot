@@ -1,8 +1,8 @@
 import { Command, CommandOptions } from '@sapphire/framework';
 import { ApplyOptions } from '@sapphire/decorators';
-import { sendImageResponse } from '#lib/utils';
+import { sendImageResponse } from '../../lib/utils';
+import { Caenis } from '../../lib/imageData';
 import type { Message } from 'discord.js';
-import { Caenis } from '#lib/imageData';
 
 @ApplyOptions<CommandOptions>({
 	description: '🐺'
