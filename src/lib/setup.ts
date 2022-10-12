@@ -1,3 +1,5 @@
+import 'source-map-support/register';
+
 // Unless explicitly defined, set NODE_ENV as development:
 process.env.NODE_ENV ??= 'development';
 
