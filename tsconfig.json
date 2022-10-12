@@ -1,0 +1,14 @@
+{
+	"extends": "@sapphire/ts-config",
+	"compilerOptions": {
+		"target": "ES2022",
+		"rootDir": "src",
+		"outDir": "dist",
+		"baseUrl": "src",
+		"tsBuildInfoFile": "dist/.tsbuildinfo",
+		"paths": {
+			"#lib/*": ["./lib/*"]
+		}
+	},
+	"include": ["src"]
+}
